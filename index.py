@@ -30,7 +30,7 @@ year_list.reverse()
 itm_value = 'T10'
 sex_value = 0
 age_value = 0
-year_value = ['2021', '2020']
+year_value = ['2021']
 
 # graph figure 생성
 fig = go.Figure()
