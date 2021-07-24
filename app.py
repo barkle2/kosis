@@ -2,7 +2,6 @@ import dash
 import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output
-import plotly.express as px
 import plotly.graph_objects as go
 
 import pandas as pd
@@ -31,7 +30,7 @@ year_list.reverse()
 itm_value = 'T10'
 sex_value = 0
 age_value = 0
-year_value = ['2020']
+year_value = ['2021', '2020']
 
 # graph figure 생성
 fig = go.Figure()
